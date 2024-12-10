@@ -1,0 +1,12 @@
+# Ignora o arquivo de configuração do ambiente
+.env
+
+# Ignora a pasta node_modules (dependências do projeto)
+node_modules/
+
+# Ignora logs
+*.log
+
+# Ignora o diretório de build (caso use algo como o Webpack)
+build/
+dist/
