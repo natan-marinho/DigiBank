@@ -1,59 +1,35 @@
-<div align="center">
-  <img src="./banner.svg" alt="DigiBank App Banner" width="800"/>
-</div>
 
 # DigiBank
 
-Sistema bancário digital moderno e intuitivo desenvolvido com React e Node.js.
+<div align="center">
+  <img src="./banner.svg" alt="DigiBank Banner" width="800"/>
+</div>
 
-## 🚀 Instalação Rápida
+Sistema bancário digital desenvolvido com React e Node.js.
+
+## 🚀 Instalação
 
 ### Pré-requisitos
-
 - Node.js
-- npm ou yarn
 - MySQL
 
-### 1. Clone o repositório
-
-```bash
-git clone [url-do-seu-repositorio]
-cd digibank
-```
-
-### 2. Instalação das dependências
-
-#### Frontend
+### Frontend
 ```bash
 cd frontend
 npm install
-# ou
-yarn install
 ```
 
-#### API
+### API
 ```bash
 cd api
 npm install
-# ou
-yarn install
-```
-
-### 3. Configuração do Banco de Dados
-
-1. Acesse a pasta `api/config`
-2. Localize o arquivo `readme.md` com o script SQL
-3. Execute o script no seu servidor MySQL local
-
-### 4. Configuração do Ambiente
-
-Na pasta da API, configure as variáveis de ambiente:
-
-```bash
 cp .env.example .env
 ```
 
-Edite o arquivo `.env` com suas configurações locais:
+## ⚙️ Configuração
+
+1. Configure o banco de dados seguindo o script em `api/config/readme.md`
+2. Configure as variáveis de ambiente:
 ```env
 DB_HOST=localhost
 DB_USER=seu_usuario
@@ -61,36 +37,29 @@ DB_PASS=sua_senha
 DB_NAME=digibank
 ```
 
-### 5. Iniciando as Aplicações
+## 💻 Execução
 
-#### API
+### API
 ```bash
 cd api
 npm start
 ```
 
-#### Frontend
+### Frontend
 ```bash
 cd frontend
 npm run dev
 ```
 
-### 6. Acessando o Sistema
+Acesse:
+- API: `http://localhost:3001`
+- Frontend: `http://localhost:3000`
 
-- API: [http://localhost:3001](http://localhost:3001)
-- Frontend: [http://localhost:3000](http://localhost:3000)
-
-## 🛠️ Tecnologias Utilizadas
-
+## 🛠️ Tecnologias
 - React
 - Node.js
 - MySQL
 - Express
 
 ## 📝 Licença
-
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## 👨‍💻 Autor
-
-Seu Nome - [Seu GitHub](https://github.com/seu-usuario)
